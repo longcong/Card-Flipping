@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html > <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>FLIPPING CARD GAME</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/singlecard.css">
+    <link rel="stylesheet" href="css/gamefield.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js" ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+    
+    <div id="app">
+        <div class="instruction">
+            <h1>WELCOME TO FLIPPING CARD GAME</h1>
+        </div>
+        <gamefield id="gamefield"/>
+    </div>
+
+    
+</body>
+<script src="javascript/card-flipper.js" ></script>
+<script src="javascript/gamefield.js" ></script>
+</html>
+<script>
+    new Vue({
+        el: "#app" ,
+    });
+</script>
